@@ -1,5 +1,7 @@
 CUDA8.0,cudnn5.1,python2
 
+cd $densenetcaffe_root
+
 make all -j8
 
 make test -j8
@@ -11,7 +13,6 @@ make pycaffe -j8
 make matcaffe -j8
 
 (1)
-cd $densenetcaffe_root
 
 ./data/cifar10/get_cifar10.sh
 

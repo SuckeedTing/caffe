@@ -1,6 +1,6 @@
 CUDA8.0,cudnn5.1,python2
 
-cd $densenetcaffe_root
+cd $caffe-densenet_root
 
 make all -j8
 

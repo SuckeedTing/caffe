@@ -10,7 +10,6 @@ make runtest -j8
 
 make pycaffe -j8
 
-make matcaffe -j8
 
 (1)
 
